@@ -61,6 +61,6 @@
         $conn->close();
     }
     ?>
-    <script src="new2.js"></script>
+    <script src="js/new2.js"></script>
 </body>
 </html>

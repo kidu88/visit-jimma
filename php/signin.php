@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-<script src="new.js"></script>
+<script src="js/new.js"></script>
 
 </body>
 </html>

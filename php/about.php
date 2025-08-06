@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'php/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,6 +83,6 @@
             <a href="https://www.youtube.com/watch?v=yourvideo" target="_blank">Watch Video</a>
         </div>
     </section>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

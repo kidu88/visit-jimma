@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'php/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -48,6 +48,6 @@
     
    
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
