@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In - Visit Jimma</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/signin.css">
     
 </head>
 
