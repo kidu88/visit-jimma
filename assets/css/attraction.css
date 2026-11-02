@@ -1,0 +1,52 @@
+.attractions {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  background-color: black;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #fc440d;
+}
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fc440d;
+
+  padding-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.attractions-container {
+  display: flex;
+  flex-direction: column;
+}
+.attraction-table {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.attraction-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.attraction-images img {
+  width: 32%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.attraction-images img:hover {
+  transform: scale(1.1);
+}
