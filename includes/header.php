@@ -9,20 +9,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
    
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <section class="header">
-      <a href="#" class="logo">visit jimma</a>
-      <div id="menu-btn" class="fas fa-bars"></div>
-      <nav class="navbar">
+<header class="header">
+    <a href="index.php" class="logo">VISIT <span>JIMMA</span></a>
+    
+    <nav class="navbar">
         <a href="index.php">Home</a>
         <a href="about.php">About</a>
         <a href="food.php">Foods</a>
         <a href="cloths.php">Cloths</a>
         <a href="attraction.php">Attractions</a>
-        <a href="Book.php">Hotels</a>
-      </nav>
-    </section>
+        <a href="hotel.php">Hotels</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
   </body>
 </html>

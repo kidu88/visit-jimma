@@ -1,52 +1,120 @@
-.attractions {
-  font-family: Arial, sans-serif;
-  width: 100%;
-  background-color: black;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0d10 !important;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #e5e7eb;
 }
-h2 {
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-  color: #fc440d;
-}
-h3 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fc440d;
 
-  padding-bottom: 20px;
+.attractions {
+  max-width: 1200px;
+  margin: 110px auto 60px auto;
+  padding: 0 20px;
+  background-color: transparent;
 }
-p {
-  line-height: 1.6;
-  color: white;
-  max-width: 650px;
-  margin: 0 auto;
-  padding-top: 10px;
-  font-size: 20px;
+
+h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
 }
 .attractions-container {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 .attraction-table {
-  margin-bottom: 40px;
-  text-align: center;
+  background: #161a1f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+  margin-bottom: 0;
+}
+
+.attraction-table:hover {
+  transform: translateY(-6px);
+  border-color: rgba(74, 139, 26, 0.6);
+  box-shadow: 0 15px 35px rgba(74, 139, 26, 0.2);
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #5bb324;
+  padding-bottom: 18px;
+  margin: 0;
 }
 .attraction-images {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 22px;
   overflow: hidden;
+  border-radius: 12px;
 }
+
 .attraction-images img {
-  width: 32%;
-  height: 200px;
+  width: 100%;
+  height: 230px;
   object-fit: cover;
-  border-radius: 5px;
-  transition: transform 0.3s ease;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.4s ease;
 }
+
 .attraction-images img:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
+}
+
+p {
+  line-height: 1.8;
+  color: #cbd5e1;
+  max-width: 100%;
+  margin: 0;
+  padding-top: 0;
+  font-size: 1.45rem;
+  text-transform: none;
+}
+@media (max-width: 900px) {
+  .attractions {
+    margin-top: 90px;
+    padding: 0 15px 40px 15px;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+  }
+
+  .attraction-table {
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .attraction-images {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .attraction-images img {
+    height: 200px;
+  }
+
+  p {
+    font-size: 1.35rem;
+  }
 }
